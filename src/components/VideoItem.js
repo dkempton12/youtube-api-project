@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoItem = () => {
+const VideoItem = ({video}) => {
   return (
     <div>
       <img className="ui image" 
@@ -9,3 +9,5 @@ const VideoItem = () => {
     </div>
   )
 }
+
+export default VideoItem;
