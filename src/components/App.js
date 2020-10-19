@@ -18,12 +18,12 @@ class App extends React.Component {
     this.setState({
       videos: response.data.items,
     });
-    // console.log(this.state.videos);
   };
 
   onVideoSelect = (video) => {
-    this.setState({selectedVideo: video})
-  }
+    this.setState({selectedVideo: video});
+    console.log(video);
+  };
   render() {
     return (
       <div className="ui container">
