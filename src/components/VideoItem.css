@@ -3,13 +3,6 @@
   align-items: center !important;
   cursor: pointer;
 }
-
-.video-item.item {
-  padding: 4rem 3rem;
-  margin-bottom: 15px;
-  background: #fff;
-}
-
 .video-item img {
-  max-width: 250px;
+  max-width: 180px;
 }
